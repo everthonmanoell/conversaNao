@@ -3,7 +3,7 @@ import socket
 
 def main():
     # Configura o cliente
-    host = '192.168.137.62'  # IP do servidor
+    host = '192.168.137.63'  # IP do servidor
     port = 5555
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
